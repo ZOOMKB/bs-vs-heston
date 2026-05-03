@@ -1,7 +1,7 @@
 [project]
 name = "citi-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "SPY options analysis with Black-Scholes and Heston stochastic volatility models"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -12,4 +12,10 @@ dependencies = [
     "scikit-learn>=1.8.0",
     "scipy>=1.17.0",
     "seaborn>=0.13.2",
+    "yfinance>=1.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
 ]
